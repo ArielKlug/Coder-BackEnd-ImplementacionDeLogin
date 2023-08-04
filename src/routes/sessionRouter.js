@@ -102,7 +102,7 @@ router.get("/logout", (req, res) => {
         error: err,
       });
     }
-    res.redirect("http://localhost:8080/views/login/");
+    res.redirect("http://localhost:8080/");
   });
 });
 
